@@ -42,7 +42,9 @@ public class Customer
 // Example:
 namespace CSharpIntermediate
 {
-    public class Customer
+    // public class Customer  //customer class
+    public int Id;
+    public string Name;
 
     class Program
     {
