@@ -31,3 +31,10 @@ person.Introduce();
 //A static member is accessible from the class
 //Why use static members: To represent concepts that are singleton(meaning we should only have one instance of the concept in the memory, DateTime.Now, and Console.WriteLine()
 Console.WriteLine();  //console is the class, writeline is the static method
+
+//Declaring static members
+
+public class Person
+{
+    public static int PeopleCount = 0; //use the static keyword after the access modifyer
+}
