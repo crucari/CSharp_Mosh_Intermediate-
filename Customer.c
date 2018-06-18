@@ -9,6 +9,7 @@ namespace CSharpIntermediate
 }
 
 //-------------
+//supplement
  public class Person
     {
         // Constructor that takes no arguments:
