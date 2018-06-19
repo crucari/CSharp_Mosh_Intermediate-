@@ -13,13 +13,15 @@ namespace CSharpIntermediate
         }
 
         public Customer(int id)
+            : this() //first it will call the constructor without parameters
         {
             this.Id = id;
         }
 
         public Customer(int id, string name)
+           : this(id)
         {
-            this.Id - id;
+            // this.Id - id;
             this.Name = name;
         }
     }
