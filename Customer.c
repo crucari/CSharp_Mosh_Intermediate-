@@ -67,3 +67,8 @@ public class Person
     }
     //Other properties, methods, events...
 }
+
+class Program
+{
+    static void Main()
+    {
