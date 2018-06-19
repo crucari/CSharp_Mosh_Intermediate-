@@ -4,10 +4,12 @@ namespace CSharpIntermediate
     {
         public int Id;
         public string Name;
+        public List<Order> Orders;
+    }
 
         public Customer()
         {
-
+             Orders = new List<Order>(); //whenever you have a class and that class has a list of objects, make sure to always initialize
         }
 
         public Customer(int id)
