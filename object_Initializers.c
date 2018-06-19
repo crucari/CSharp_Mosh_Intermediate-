@@ -11,6 +11,8 @@ public class Person
     public DateTime Birthdate;
 }
 
+________
+
 public class Person
 {
     public Person(int id) {}
@@ -21,3 +23,13 @@ public class Person
 
     public Person(int id, DateTime birthdate) {}
 }
+
+//messy and out of control
+
+// ---with an object initalizer---
+
+var person = new Person
+             {
+                 FirstName = "Mosh",
+                 LastName = "Hamedani"
+             };
