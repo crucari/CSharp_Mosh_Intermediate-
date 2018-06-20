@@ -58,3 +58,35 @@ public class MyClass
 
 var a = 1;
 myClass.MyMethod(a);
+
+//---
+
+public class Weirdo
+{
+    public void DpAWeirdThing(ref int a)
+    {
+        a += 2;
+    }
+}
+
+var a = 1;
+weirdo.DoAWeirdThing(ref a);
+
+//out modifier
+public class MyClass
+{
+    public void MyMethod(out int result)
+    {
+        result =1;
+    }
+}
+
+int a;
+myClass.MyMethod(out a);
+
+//----
+
+namespace Methods
+{
+
+}
