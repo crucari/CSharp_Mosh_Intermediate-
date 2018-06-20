@@ -16,5 +16,13 @@ namespace Methods
             this.X = x;
             this.Y = y;
          }
+
+         public void Move(Point newLocation)
+         {
+             if (newLocation == null)
+                 throw new ArguementNullException("newLocation");
+
+             Move(newLocation.X, newLocation.Y);
+         }
      }
 }
