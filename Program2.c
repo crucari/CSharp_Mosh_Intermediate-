@@ -34,6 +34,7 @@ try
 
 catch (Exception)
 {
-    throw;
+    // throw;
+    Console.WriteLine("An unexpected error occured.");
 }
 // }
