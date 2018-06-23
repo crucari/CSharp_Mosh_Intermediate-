@@ -52,14 +52,15 @@ public class MyClass
 {
     public void MyMethod(int a)
     {
-        a += 2;
+        a += 2;  //adds 2 to the interger
     }
 }
 
-var a = 1;
-myClass.MyMethod(a);
+var a = 1;  //
+myClass.MyMethod(a);  //What is the result of a after reurning from this method? It's 1 becuasea is a value type.
 
 //---
+//The ref modifier
 
 public class Weirdo
 {
@@ -70,7 +71,7 @@ public class Weirdo
 }
 
 var a = 1;
-weirdo.DoAWeirdThing(ref a);
+weirdo.DoAWeirdThing(ref a);  //a 3 is returned
 
 //out modifier
 public class MyClass
@@ -82,7 +83,7 @@ public class MyClass
 }
 
 int a;
-myClass.MyMethod(out a);
+myClass.MyMethod(out a);  //with out this method can return a value to the caller.
 
 //----
 

@@ -17,12 +17,14 @@ namespace Methods
             this.Y = y;
          }
 
-         public void Move(Point newLocation)
+         public void Move(Point newLocation)  //below is an example of defensive programming
          {
-             if (newLocation == null)
-                 throw new ArguementNullException("newLocation");
+             if (newLocation == null)  //if the new location is null, we throw a ANE and throw a new class.
+                 throw new ArgumentNullException("newLocation"); //error reporting  //an exception is just a class  //passes the parameter that was null
 
              Move(newLocation.X, newLocation.Y);
          }
      }
 }
+
+//ANE better than null reference exception. Why? Application will always have a globally error handling mechanism.
