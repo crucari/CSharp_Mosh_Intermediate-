@@ -35,6 +35,8 @@ try  //the code that has an exception
 catch (Exception)  //message that appears on the console
 {
     // throw;
-    Console.WriteLine("An unexpected error occured.");
+    Console.WriteLine("An unexpected error occured.");  //better in terms of user experience
 }
-// }
+     static void UsePoints()
+
+}
