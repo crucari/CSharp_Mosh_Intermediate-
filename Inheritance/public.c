@@ -19,3 +19,20 @@ public class Customer
 
 var customer = new customer();
 customer.calculateRating();
+
+____
+
+internal class RateCalculator
+{
+
+}
+
+//In the same assembly
+var calc = new RateCalculator();
+
+//In another assembly
+var calc = bnew RateCalculator();
+
+___
+
+
