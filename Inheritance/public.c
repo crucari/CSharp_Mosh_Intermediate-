@@ -35,4 +35,11 @@ var calc = bnew RateCalculator();
 
 ___
 
+public class Customer
+{
 
+protected internal void weirdo()
+{
+
+}
+}
