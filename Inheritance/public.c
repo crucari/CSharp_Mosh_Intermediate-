@@ -5,3 +5,17 @@ public class Customer  //public class example
 
     }
 }
+
+__
+
+public class Customer
+{
+    protected int CalculateRating()
+    {
+
+    }
+}
+...
+
+var customer = new customer();
+customer.calculateRating();
